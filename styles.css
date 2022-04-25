@@ -1,0 +1,54 @@
+/* == BASIC RESET == */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* == UTILITY CLASSES == */
+.flex {
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+.around {
+    justify-content: space-around;
+    align-items: center;
+}
+.between {
+    justify-content: space-between;
+    align-items: center;
+}
+.evenly {
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* == GENERAL STYLING == */
