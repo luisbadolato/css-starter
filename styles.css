@@ -52,3 +52,14 @@ a {
     align-items: center;
 }
 /* == GENERAL STYLING == */
+
+
+
+/* == MEDIA QUERIES == */
+@media screen and (max-width: 800px) {
+    
+}
+
+@media screen and (max-height: 800px) {
+
+}
