@@ -1,4 +1,8 @@
+/* == IMPORTS == */
+
+
 /* == BASIC RESET == */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -27,7 +31,10 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+
 /* == UTILITY CLASSES == */
+
 .flex {
     display: flex;
 }
@@ -51,11 +58,14 @@ a {
     justify-content: space-evenly;
     align-items: center;
 }
+
+
 /* == GENERAL STYLING == */
 
 
 
 /* == MEDIA QUERIES == */
+
 @media screen and (max-width: 800px) {
     
 }
